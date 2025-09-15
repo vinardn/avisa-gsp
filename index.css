@@ -139,7 +139,7 @@
 /* Hero Start */
 
 .hero {
-    background-image: url(/Element/Gambar/hero-bg.png);
+    background-image: url(./Element/Gambar/bg.jpg);
     width: 100%;
     min-height: 100vh;
     background-position: center;
@@ -168,7 +168,7 @@
 
 @media (max-width: 992px) {
     .hero {
-        background-image: url(/Element/Gambar/hero-bg.png);
+        background-image: url(./Element/Gambar/bg.jpg);
         width: 100%;
         min-height: 80vh;
         background-position: center;
@@ -196,7 +196,7 @@
 
 @media (max-width: 768px) {
     .hero {
-        background-image: url(/Element/Gambar/hero-bg.png);
+        background-image: url(./Element/Gambar/bg.jpg);
         width: 100%;
         min-height: 60vh;
         background-position: center;
