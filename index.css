@@ -78,7 +78,7 @@
     display: none;
 }
 
-/* breakpoints */
+/* breakpoints Nav */
 
 @media (max-width: 992px) {
     .header {
@@ -109,8 +109,8 @@
         left: 0;
         width: 100%;
         height: 0;
-        background: rgba(0, 0, 0, .1);
-        backdrop-filter: blur(50%);
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(80%);
         overflow: hidden;
         transition: .3s ease;
     }
@@ -133,3 +133,94 @@
     }
 }
 /* Navbar End */
+
+/* -------------------- */
+
+/* Hero Start */
+
+.hero {
+    background-image: url(/Element/Gambar/hero-bg.png);
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding-top: 350px;
+    padding-bottom: 150px;
+}
+
+.hero h1 {
+    font-size: 100px;
+}
+
+.hero h3 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+/* breakpoints Hero */
+
+@media (max-width: 992px) {
+    .hero {
+        background-image: url(/Element/Gambar/hero-bg.png);
+        width: 100%;
+        min-height: 80vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        color: white;
+        padding-top: 350px;
+        padding-bottom: 150px;
+    }
+    
+    .hero h1 {
+        font-size: 60px;
+    }
+    
+    .hero h3 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+    .hero p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background-image: url(/Element/Gambar/hero-bg.png);
+        width: 100%;
+        min-height: 60vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        color: white;
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+    
+    .hero h1 {
+        font-size: 60px;
+    }
+    
+    .hero h3 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+    .hero p {
+        font-size: 12px;
+    }
+}
+
+/* Hero End */
