@@ -149,6 +149,7 @@
     color: white;
     padding-top: 350px;
     padding-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .hero h1 {
@@ -178,6 +179,7 @@
         color: white;
         padding-top: 350px;
         padding-bottom: 150px;
+        margin-bottom: 30px;
     }
     
     .hero h1 {
@@ -206,6 +208,7 @@
         color: white;
         padding-top: 200px;
         padding-bottom: 150px;
+        margin-bottom: 30px;
     }
     
     .hero h1 {
@@ -224,3 +227,210 @@
 }
 
 /* Hero End */
+
+/* ----------------------- */
+
+/* About Me Start*/
+
+.about {
+    text-align: center;
+}
+
+.about p {
+    background-color: #F6682B;
+    color: white;
+    width: 200px;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.about h3 {
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.tentang {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.tentang-box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 25px;
+}
+
+.box img {
+    width: 400px;
+}
+
+.box h2 {
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.box p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2;
+}
+
+/* breakpoint */
+
+@media (max-width: 1260px) {
+    .about {
+        text-align: center;
+    }
+    
+    .about p {
+        background-color: #F6682B;
+        color: white;
+        width: 200px;
+        margin: auto;
+        font-size: 18px;
+        border-radius: 50px;
+        padding: 5px;
+    }
+    
+    .about h3 {
+        font-size: 30px;
+        margin-top: 10px;
+        font-weight: 400;
+    }
+
+    .tentang {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        place-items: center;
+    }
+    
+    .tentang-box {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 25px;
+    }
+    
+    .box img {
+        width: 300px;
+    }
+    
+    .box h2 {
+        font-size: 25px;
+        font-weight: 450;
+    }
+    
+    .box p {
+        font-size: 15px;
+        text-align: justify;
+        line-height: 2;
+    }
+}
+
+@media (max-width: 992px) {
+    .about {
+        text-align: center;
+    }
+    
+    .about p {
+        background-color: #F6682B;
+        color: white;
+        width: 200px;
+        margin: auto;
+        font-size: 18px;
+        border-radius: 50px;
+        padding: 5px;
+    }
+    
+    .about h3 {
+        font-size: 30px;
+        margin-top: 10px;
+        font-weight: 400;
+    }
+
+    .tentang {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        place-items: center;
+    }
+    
+    .tentang-box {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 25px;
+    }
+    
+    .box img {
+        width: 250px;
+    }
+    
+    .box h2 {
+        font-size: 20px;
+        font-weight: 450;
+    }
+    
+    .box p {
+        font-size: 14px;
+        text-align: justify;
+        line-height: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        text-align: center;
+    }
+    
+    .about p {
+        background-color: #F6682B;
+        color: white;
+        width: 150px;
+        margin: auto;
+        font-size: 12px;
+        border-radius: 50px;
+        padding: 5px;
+    }
+    
+    .about h3 {
+        font-size: 18px;
+        margin-top: 10px;
+        font-weight: 400;
+    }
+
+    .tentang {
+        width: 98%;
+        margin: auto;
+        display: flexbox;
+        place-items: center;
+    }
+    
+    .tentang-box {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .box img {
+        width: 250px;
+    }
+    
+    .box h2 {
+        font-size: 20px;
+        font-weight: 450;
+    }
+    
+    .box p {
+        font-size: 14px;
+        text-align: justify;
+        line-height: 2;
+    }
+}
