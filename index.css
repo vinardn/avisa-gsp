@@ -10,6 +10,36 @@
     font-size: 12px;
 }
 
+/* Pembatas Garis */
+hr {
+    width: 350px;
+    height: 4px;
+    background-color: #000000;
+    margin: auto;
+}
+
+/* breakpoint */
+
+@media (max-width: 992px) {
+    hr {
+        width: 250px;
+        height: 4px;
+        background-color: #000000;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    hr {
+        width: 150px;
+        height: 4px;
+        background-color: #000000;
+        margin: auto;
+    }
+}
+
+/* Pembatas Garis End */
+
 /* Navbar Start */
 .header {
     position: fixed;
@@ -250,6 +280,7 @@
     font-size: 40px;
     margin-top: 10px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 
 .tentang {
