@@ -579,3 +579,207 @@ hr {
         padding: 5px;
     }
 }
+
+/* Pendaftaran */
+
+.pendaftaran {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.pendaftaran-tentang-box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 25px;
+    justify-items: center;
+}
+
+.box-pendaftaran img {
+    width: 400px;
+}
+
+.box-pendaftaran h1 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1;
+    color: #C23284;
+    margin-bottom: 20px;
+}
+
+.box-pendaftaran p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.box-pendaftaran p b {
+    font-size: 20px;
+}
+
+.box-pendaftaran a button {
+    cursor: pointer;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.box-pendaftaran a button:hover {
+    background-color: #94d1ff;
+    transition: 0.5s;
+}
+
+/* breakpoint */
+
+@media (max-width: 1420px) {
+    .pendaftaran {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        place-items: center;
+    }
+    .pendaftaran-tentang-box {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 25px;
+    }
+    
+    .box-pendaftaran img {
+        width: 300px;
+    }
+    
+    .box-pendaftaran h1 {
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 1;
+    }
+    
+    .box-pendaftaran p {
+        font-size: 15px;
+        text-align: justify;
+        line-height: 2;
+    }
+
+    .box-pendaftaran p b {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 1260px) {
+    .pendaftaran {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        place-items: center;
+    }
+    .pendaftaran-tentang-box {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 25px;
+    }
+    
+    .box-pendaftaran img {
+        width: 300px;
+    }
+    
+    .box-pendaftaran h1 {
+        font-size: 42px;
+        font-weight: bold;
+        line-height: 1;
+    }
+    
+    .box-pendaftaran p {
+        font-size: 15px;
+        text-align: justify;
+        line-height: 2;
+    }
+
+    .box-pendaftaran p b {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .pendaftaran {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        place-items: center;
+    }
+    .pendaftaran-tentang-box {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 25px;
+    }
+    
+    .box-pendaftaran img {
+        width: 300px;
+    }
+    
+    .box-pendaftaran h1 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1;
+    }
+    
+    .box-pendaftaran p {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 2;
+    }
+
+    .box-pendaftaran p b {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pendaftaran {
+        width: 98%;
+        margin: auto;
+        display: flexbox;
+        place-items: center;
+    }
+    .pendaftaran-tentang-box {
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 25px;
+        margin-left: 25px;
+    }
+    
+    .box-pendaftaran img {
+        display: none;
+    }
+    
+    .box-pendaftaran h1 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1;
+    }
+    
+    .box-pendaftaran p {
+        font-size: 15px;
+        text-align: justify;
+        line-height: 2;
+    }
+
+    .box-pendaftaran p b {
+        font-size: 15px;
+    }
+}}
