@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 
 </head>
 <body>
@@ -31,200 +32,284 @@
             <a href="./index.html">Beranda</a>
             <a href="#">Jadwal Tugas</a>
             <a href="#">Daftar Anggota</a>
-            <a href="#">
-                <button>
-                    Login
-                </button>
-            </a>
         </nav>
      </header>
      <!-- Navbar End -->
 
-    <!-- Hero -->
-     <div class="hero">
-        <h1>Selamat Datang</h1>
-        <h3>Audio Visual & Kelistrikan</h3>
-        <p>Paroki Santo Paulus Sendangguwo</p>
-     </div>
-     <!-- Hero End -->
+    <!-- --------------- -->
+      <!-- Hero Start -->
+    <!-- --------------- -->
 
-    <!-- About Me -->
-     <div class="about">
-            <p>Tentang AVISA</p>
-            <h3>Mengenal Audio Visual & Kelistrikan 
-                <br> Gereja Santo Paulus Sendangguwo</h3>
-
-                <hr>
-     </div>
-
-     <div class="tentang">
-        <div class="container">
-            <div class="tentang-box">
-                <div class="box">
-                    <img src="./Element/Logo/avisa-icon.png" alt="avisa icon">
+    <section class="avisa-section">
+        <div class="avisa-container">
+            
+            <div class="avisa-content-left">
+                <h1 class="avisa-title">Audio Visual &amp; Kelistrikan</h1>
+                
+                <p class="avisa-description">
+                    "AVISA" merupakan kependekan dari "Audio Visual Sendangguwo" dan
+                    menjadi bagian dari tim pelayanan Listrik dan Audio Visual yang terdapat
+                    pada Gereja Katolik Paroki Santo Paulus Sendangguwo Semarang. Tim
+                    Pelayanan Listrik dan Audio Visual ini berada dibawah naungan bidang
+                    pelayanan rumah tangga.
+                </p>
+                
+                <a href="#" class="login-button">Login Anggota</a>
+            </div>
+            
+            <div class="avisa-images-right">
+                <div class="image-row-top">
+                    <img src="Element/Gambar/hero-1.png" alt="Tim Pelayanan AVISA" class="avisa-img-top">
                 </div>
-                <div class="box">
-                    <h2>Apa sih AVISA itu?</h2>
-                    <p>"AVISA" merupakan kependekan dari “Audio Visual Sendangguwo” dan menjadi bagian dari tim pelayanan Listrik dan Audio-Visual yang terdapat pada Gereja Katolik Paroki Santo Paulus Sendangguwo Semarang. Tim Pelayanan Listrik dan Audio Visual ini berada dibawah naungan bidang pelayanan rumah tangga. </p>
+                <div class="image-row-bottom">
+                    <img src="Element/Gambar/hero-2.png" alt="Ruang Kontrol AVISA Kiri" class="avisa-img-bottom-left">
+                    <img src="Element/Gambar/hero-3.png" alt="Kegiatan AVISA Kanan" class="avisa-img-bottom-right">
                 </div>
             </div>
+    
         </div>
-     </div>
-     <!-- About Me End -->
+    </section>
 
-     <hr>
+    <!-- --------------- -->
+      <!-- Hero End -->
+    <!-- --------------- -->
 
-    <!-- Tugas Pelayanan -->
+    <!-- --------------- -->
+      <!-- Statistik Start -->
+    <!-- --------------- -->
 
-    <div class="services-container-pelayanan">
-
-        <div class="service-card card-blue-border">
-            <div class="card-header-pelayanan">
-                <i class="fa-solid fa-volume-high icon-blue"></i>
-                <h3 class="title-blue">Audio</h3>
-            </div>
-            <div class="card-body-pelayanan">
-                <ul>
-                    <li>Mengatur mikrofon, "mixer", dan perangkat audio sebelum, selama, dan sesudah peribadatan.</li>
-                    <li>Menjaga kualitas suara agar jernih dan terdengar oleh umat (di dalam/luar gereja).</li>
-                    <li>Mengatur keseimbangan suara ("sound balance") untuk koor, organ, imam, dan petugas liturgi.</li>
-                    <li>Memberikan dukungan audio untuk kegiatan non-liturgi (pertemuan, seminar, dll.).</li>
-                    <li>Melakukan perawatan rutin terhadap perangkat audio agar selalu optimal.</li>
-                </ul>
+    <section class="statistik-section">
+        <div class="statistik-container">
+            <div class="statistik-grid">
+                
+                <div class="stat-card counter-card">
+                    <div class="stat-number" data-target="71">0</div>
+                    <p class="stat-label">Total Anggota</p>
+                </div>
+                
+                <div class="stat-card counter-card">
+                    <div class="stat-number" data-target="66">0</div>
+                    <p class="stat-label">Anggota Aktif</p>
+                </div>
+    
+                <div class="stat-card counter-card">
+                    <div class="stat-number" data-target="21">0</div>
+                    <p class="stat-label">Rata-Rata Usia</p>
+                </div>
+    
+                <div class="stat-card counter-card">
+                    <div class="stat-number" data-target="21">0</div>
+                    <p class="stat-label">Rata-Rata Usia</p>
+                </div>
+    
+                <div class="stat-card profile-card">
+                    <p class="profile-title">Profil Anggota</p>
+                    <div class="profile-detail">
+                        <span class="profile-label">Pria</span>
+                        <span class="profile-value counter-value" data-target="47">0</span>
+                    </div>
+                    <div class="profile-detail">
+                        <span class="profile-label">Wanita</span>
+                        <span class="profile-value counter-value" data-target="24">0</span>
+                    </div>
+                </div>
+    
+                <div class="stat-card profile-card">
+                    <p class="profile-title">Sebagian Besar Wilayah</p>
+                    <div class="profile-detail">
+                        <span class="profile-label">Frigia</span>
+                        <span class="profile-value counter-value" data-target="15">0</span>
+                    </div>
+                    <div class="profile-detail">
+                        <span class="profile-label">Luar Paroki</span>
+                        <span class="profile-value counter-value" data-target="6">0</span>
+                    </div>
+                </div>
+                
             </div>
         </div>
+    </section>
 
-        <div class="service-card card-yellow-border">
-            <div class="card-header-pelayanan">
-                <i class="fa-solid fa-car-side icon-yellow"></i> <h3 class="title-yellow">Visual</h3>
+    <!-- --------------- -->
+      <!-- Statistik End -->
+    <!-- --------------- -->
+
+    <!-- --------------- -->
+      <!-- Tugas Pelayanan Start -->
+    <!-- --------------- -->
+
+    <section class="task-section">
+        <div class="task-container">
+            
+            <h2 class="section-title">Tugas Pelayanan Kami</h2>
+    
+            <div class="tab-navigation">
+                <a href="#audio" class="tab-link active" data-tab="audio">Audio</a>
+                <a href="#visual" class="tab-link" data-tab="visual">Visual</a>
+                <a href="#kelistrikan" class="tab-link" data-tab="kelistrikan">Kelistrikan</a>
+                <div class="tab-underline"></div>
             </div>
-            <div class="card-body-pelayanan">
-                <ul>
-                    <li>Menyajikan tampilan visual selama ibadat maupun kegiatan paroki.</li>
-                    <li>Mengoperasikan proyektor, layar, dan perangkat presentasi (teks lagu, doa, bacaan).</li>
-                    <li>Membuat serta menayangkan konten visual yang mendukung misa atau acara paroki.</li>
-                    <li>Menyediakan dokumentasi foto dan video untuk kegiatan ibadat maupun non-ibadat.</li>
-                    <li>Mengelola arsip digital berupa dokumentasi kegiatan paroki.</li>
-                </ul>
+    
+            <div class="content-wrapper">
+                <div id="audio" class="tab-pane active">
+                    <div class="tab-header">
+                        <h3>Apa sih yang kami lakukan di audio ini?</h3>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <ul class="task-list">
+                            <li>Mengatur mikrofon, mixer, dan perangkat audio lain sebelum, selama, dan sesudah peribadatan.</li>
+                            <li>Menjaga kualitas suara agar jelas terdengar oleh umat, baik di dalam maupun di luar gereja.</li>
+                            <li>Mengatur keseimbangan suara (sound balance) untuk koor, organis, imam, dan petugas liturgi.</li>
+                            <li>Memberikan dukungan audio untuk kegiatan non-liturgi seperti pertemuan, seminar, atau acara khusus di paroki.</li>
+                            <li>Melakukan perawatan rutin terhadap perangkat audio agar selalu dalam kondisi optimal.</li>
+                        </ul>
+                        <div class="task-image">
+                            </div>
+                    </div>
+                </div>
+    
+                <div id="visual" class="tab-pane">
+                    <div class="tab-header">
+                        <h3>Apa sih yang kami lakukan di visual ini?</h3>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <ul class="task-list">
+                            <li>Bidang ini fokus pada penyajian tampilan visual selama ibadat maupun kegiatan paroki.</li>
+                            <li>Menyediakan dan mengoperasikan proyektor, layar, serta perangkat presentasi untuk menampilkan teks lagu, doa, dan bacaan.</li>
+                            <li>Membuat serta menayangkan konten visual yang mendukung misa atau acara paroki.</li>
+                            <li>Menyediakan dokumentasi foto dan video untuk kegiatan ibadat maupun non-ibadat.</li>
+                            <li>Membantu kebutuhan multimedia pada acara-acara khusus (rekoleksi, seminar, perayaan besar, dsb.).</li>
+                        </ul>
+                        <div class="task-image">
+                            </div>
+                    </div>
+                </div>
+                
+                <div id="kelistrikan" class="tab-pane">
+                    <div class="tab-header">
+                        <h3>Apa sih yang kami lakukan di kelistrikan ini?</h3>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <ul class="task-list">
+                            <li>Bidang ini berperan memastikan kebutuhan listrik di area gereja aman dan berjalan baik.</li>
+                            <li>Mengecek dan mengatur instalasi listrik sebelum dan selama peribadatan.</li>
+                            <li>Menangani kendala kelistrikan yang mendadak (misalnya: mati lampu, kabel longgar, atau gangguan teknis lainnya).</li>
+                            <li>Menyediakan dan mengoperasikan penerangan tambahan saat acara khusus.</li>
+                            <li>Melakukan perawatan dan perbaikan ringan instalasi listrik di ruang liturgi maupun fasilitas penunjang.</li>
+                        </ul>
+                        <div class="task-image">
+                            </div>
+                    </div>
+                </div>
+    
             </div>
         </div>
+    </section>
 
-        <div class="service-card card-blue-border-2">
-            <div class="card-header-pelayanan">
-                <i class="fa-solid fa-bolt-lightning icon-blue-2"></i>
-                <h3 class="title-blue-2">Kelistrikan</h3>
+    <!-- --------------- -->
+      <!-- Tugas Pelayanan End -->
+    <!-- --------------- -->
+
+
+    <!-- --------------- -->
+      <!-- CTA Start -->
+    <!-- --------------- -->
+
+    <section class="cta-section">
+        <div class="cta-container">
+            
+            <div class="cta-content">
+                <h1 class="cta-title">Daftarkan Dirimu Sekarang Juga</h1>
+                
+                <p class="cta-description">
+                    TIDAK PERLU memiliki Kamera, Laptop, maupun peralatan
+                    multimedia lain.
+                </p>
+                
+                <a href="#" class="cta-button">Daftar Sekarang</a>
             </div>
-            <div class="card-body-pelayanan">
-                <ul>
-                    <li>Memastikan kebutuhan listrik di area gereja aman dan berjalan baik.</li>
-                    <li>Mengecek dan mengatur instalasi listrik sebelum dan selama peribadatan.</li>
-                    <li>Menangani kendala kelistrikan yang mendadak (mati lampu, kabel longgar, dll.).</li>
-                    <li>Menyediakan dan mengoperasikan penerangan tambahan saat acara khusus.</li>
-                    <li>Bekerja sama dengan tim Sarpras untuk proyek perbaikan atau pemasangan instalasi baru.</li>
-                </ul>
+            
+            <div class="cta-image-wrapper">
+                <img src="Element/Gambar/image-pendaftaran.png" alt="Ilustrasi Yesus Hati Kudus" class="cta-image">
             </div>
+            
         </div>
+    </section>
 
+    <!-- --------------- -->
+      <!-- CTA End -->
+    <!-- --------------- -->
+
+     <!-- ============================== -->
+     <!-- News Start-->
+    <!-- ============================== -->
+
+    <div class="container-news">
+        <h2 class="section-title">Berita Terkini</h2>
+        <div class="title-divider"></div>
+
+        <div class="news-grid">
+            
+            <div class="news-card">
+                <div class="card-image-container">
+                    <img src="Element/Gambar/bg.jpg" alt="Gambar Berita 1">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-headline">Headline News</h3>
+                    <p class="card-excerpt">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div class="read-more-section">
+                        <a href="#" class="read-more-link">Baca Selengkapnya</a>
+                        <div class="content-divider"></div>
+                    </div>
+                    <p class="card-date">Tanggal Upload Berita</p>
+                </div>
+            </div>
+            
+            <div class="news-card">
+                <div class="card-image-container">
+                    <img src="Element/Gambar/bg.jpg" alt="Gambar Berita 2">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-headline">Headline News</h3>
+                    <p class="card-excerpt">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div class="read-more-section">
+                        <a href="#" class="read-more-link">Baca Selengkapnya</a>
+                        <div class="content-divider"></div>
+                    </div>
+                    <p class="card-date">Tanggal Upload Berita</p>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="card-image-container">
+                    <img src="Element/Gambar/bg.jpg" alt="Gambar Berita 3">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-headline">Headline News</h3>
+                    <p class="card-excerpt">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div class="read-more-section">
+                        <a href="#" class="read-more-link">Baca Selengkapnya</a>
+                        <div class="content-divider"></div>
+                    </div>
+                    <p class="card-date">Tanggal Upload Berita</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="news-footer">
+            <a href="#" class="more-news-button">Berita Lainnya</a>
+        </div>
     </div>
-     <!-- Tugas Pelayanan End -->
+</section>
 
-     <hr>
+<!-- ============================== -->
+ <!-- News End-->
+<!-- ============================== -->
 
-    <!-- Pendaftaran -->
-    <div class="pendaftaran">
-        <div class="container">
-            <div class="pendaftaran-tentang-box">
-                <div class="box-pendaftaran">
-                    <img src="./Element/Gambar/image-pendaftaran.png" alt="avisa icon">
-                </div>
 
-                <div class="box-pendaftaran">
-                    <h1>Daftarkan Dirimu Sekarang Juga</h1>
-                    <p> <b>TIDAK PERLU</b> memiliki Kamera, Laptop, maupun <br> peralatan multimedia lain. </p>
-                    <a href="#">
-                        <button>
-                            Daftar Sekarang
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
-     </div>
-     <!-- Pendaftaran End -->
-
-     <hr>
-     <br>
-
-     <!-- News -->
-     <<div class="container-news">
-
-        <div class="card card-blue">
-            <div class="card-header-news">
-                <img src="Element/Gambar/hero-bg.png" alt="">
-            </div>
-            <div class="card-body">
-                <h4>Lorem Ipsum</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <a href="#" class="read-more">Baca Selengkapnya →</a>
-            </div>
-        </div>
-
-        <div class="card card-yellow">
-            <div class="card-header-news">
-                <img src="Element/Gambar/hero-bg.png" alt="">
-            </div>
-            <div class="card-body">
-                <h4>Lorem Ipsum</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <a href="#" class="read-more">Baca Selengkapnya →</a>
-            </div>
-        </div>
-
-        <div class="card card-dark">
-            <div class="card-header-news">
-                <img src="Element/Gambar/hero-bg.png" alt="">
-            </div>
-            <div class="card-body">
-                <h4>Lorem Ipsum</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <a href="#" class="read-more">Baca Selengkapnya →</a>
-            </div>
-        </div>
-
-        <div class="card card-dark">
-            <div class="card-header-news">
-                <img src="Element/Gambar/hero-bg.png" alt="">
-            </div>
-            <div class="card-body">
-                <h4>Lorem Ipsum</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <a href="#" class="read-more">Baca Selengkapnya →</a>
-            </div>
-        </div>
-
-        <div class="card card-dark">
-            <div class="card-header-news">
-                <img src="Element/Gambar/hero-bg.png" alt="">
-            </div>
-            <div class="card-body">
-                <h4>Lorem Ipsum</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <a href="#" class="read-more">Baca Selengkapnya →</a>
-            </div>
-        </div>
-
-        <div class="card card-dark">
-            <div class="card-header-news">
-                <img src="Element/Gambar/hero-bg.png" alt="">
-            </div>
-            <div class="card-body">
-                <h4>Lorem Ipsum</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <a href="#" class="read-more">Baca Selengkapnya →</a>
-            </div>
-        </div>
-
-    </div>
 
     <!-- Footter -->
     <footer class="footer-distributed">
@@ -245,7 +330,7 @@
             </p>
 
             <p>AVISA GSP &copy; 2026</p>
-            <p>V.0.1</p>
+            <p>Versi V.0.1</p>
         </div>
 
     </footer>
